@@ -880,7 +880,7 @@ def test_screen():
     max_swing_angle = math.pi / 4  # Maximum swing angle (45 degrees)
     chain_length = 600  # Length of the chain
 
-    # Control variable for swinging
+    # Control variable for swinging.
     is_swinging = False  # Start as a still image
 
     # Chain offset from the anchor point (allowing adjustments)
