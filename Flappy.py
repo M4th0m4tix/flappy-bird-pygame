@@ -905,7 +905,7 @@ def test_screen():
     # Load and scale paper ball image
     try:
         paper_ball_img = pygame.image.load("paper_ball.png").convert_alpha()
-        paper_ball_img = pygame.transform.scale(paper_ball_img, (50, 50))  # Adjust size as needed
+        paper_ball_img = pygame.transform.scale(paper_ball_img, (150, 150))  # Adjust size as needed
     except pygame.error as e:
         print(f"Error loading paper_ball.png: {e}")
         pygame.quit()
